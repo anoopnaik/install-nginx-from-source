@@ -24,7 +24,7 @@ cd /tmp/
 ```
 
 2. the PCRE library – required by NGINX Core and Rewrite modules and provides support for regular expressions:
-###### Check the latest version at ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/ and change below code accordingly
+> Check the latest version at ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/ and change below code accordingly
 ```
 wget ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.39.tar.gz
 tar -zxf pcre-8.39.tar.gz
@@ -33,8 +33,8 @@ cd pcre-8.39
 make
 sudo make install
 ```
-###### the zlib library – required by NGINX Gzip module for headers compression:
-###### Check the latest version at http://www.zlib.net and change below code accordingly
+3. the zlib library – required by NGINX Gzip module for headers compression:
+> Check the latest version at http://www.zlib.net and change below code accordingly
 ```
 wget http://zlib.net/zlib-1.2.8.tar.gz
 tar -zxf zlib-1.2.8.tar.gz
@@ -44,8 +44,8 @@ make
 sudo make install
 ```
 
-###### the OpenSSL library – required by NGINX SSL modules to support the HTTPS protocol:
-###### Check the latest version at https://www.openssl.org/source/ and change below code accordingly
+4. the OpenSSL library – required by NGINX SSL modules to support the HTTPS protocol:
+> Check the latest version at https://www.openssl.org/source/ and change below code accordingly
 ```
 wget https://www.openssl.org/source/openssl-1.0.2h.tar.gz
 tar -zxf openssl-1.0.2h.tar.gz
