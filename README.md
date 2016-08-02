@@ -4,6 +4,18 @@
 
 ###### Prior to compiling NGINX from the sources, it is necessary to install its dependencies:
 
+###### Install development tools needed to build NGINX from source
+
+###### redhat base (CentOS):
+###### Before installing the Development tools, run the yum clean all command. This will clear the yum cache and force it to reread any changed configuration files.
+```
+yum clean all
+yum groupinstall "Development tools"
+```
+
+###### Debian base (Ubuntu):
+```apt-get install build-essential```
+
 ###### Change to /tmp directory
 ```cd /tmp/```
 
@@ -39,7 +51,7 @@ make
 sudo make install
 ```
 
-## Download and Install NGINX from Source
+## Download and Install NGINX from source
 
 ###### Check the latest mainline version from http://nginx.org/en/download.html and change below code accordingly
 ```
