@@ -14,10 +14,14 @@ yum groupinstall "Development tools"
 ```
 
 > Debian base (Ubuntu):
-```apt-get install build-essential```
+```
+apt-get install build-essential
+```
 
 > Change to /tmp directory
-```cd /tmp/```
+```
+cd /tmp/
+```
 
 2. the PCRE library – required by NGINX Core and Rewrite modules and provides support for regular expressions:
 ###### Check the latest version at ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/ and change below code accordingly
