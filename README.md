@@ -1,2 +1,1 @@
-# Init script for Nginx on CentOS 7
-Place the nginx.service file in /usr/lib/systemd/system/
+# Installing NGINX from source on Ubuntu 16.04 / CentOS 7
