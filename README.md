@@ -50,7 +50,7 @@ cd /tmp/
 wget https://www.openssl.org/source/openssl-1.0.2h.tar.gz
 tar -zxf openssl-1.0.2h.tar.gz
 cd openssl-1.0.2h
-./configure darwin64-x86_64-cc --prefix=/usr
+./config
 make
 sudo make install
 ```
