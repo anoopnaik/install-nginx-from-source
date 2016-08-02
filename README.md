@@ -4,7 +4,7 @@
 
 ###### Prior to compiling NGINX from the sources, it is necessary to install its dependencies:
 
-###### Install development tools needed to build NGINX from source
+1. Install development tools needed to build NGINX from source
 
 > redhat base (CentOS):
 > Before installing the Development tools, run the yum clean all command. This will clear the yum cache and force it to reread any changed configuration files.
@@ -19,7 +19,7 @@ yum groupinstall "Development tools"
 > Change to /tmp directory
 ```cd /tmp/```
 
-###### the PCRE library – required by NGINX Core and Rewrite modules and provides support for regular expressions:
+2. the PCRE library – required by NGINX Core and Rewrite modules and provides support for regular expressions:
 ###### Check the latest version at ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/ and change below code accordingly
 ```
 wget ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.39.tar.gz
