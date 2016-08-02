@@ -1,4 +1,6 @@
-# PATH: /lib/systemd/system/nginx.service
+# Copy the file to below paths
+# /lib/systemd/system/nginx.service
+# /etc/systemd/system/multi-user.target.wants/nginx.service
 
 # Stop dance for nginx
 # =======================
