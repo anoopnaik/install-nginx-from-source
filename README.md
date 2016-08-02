@@ -19,7 +19,7 @@ apt-get install build-essential
 ```
   
   
-- the PCRE library – required by NGINX Core and Rewrite modules and provides support for regular expressions:
+###### the PCRE library – required by NGINX Core and Rewrite modules and provides support for regular expressions:
   - Check the latest version at ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/ and change below code accordingly
 ```
 cd /tmp/
@@ -31,7 +31,7 @@ make
 sudo make install
 ```
   
-- the zlib library – required by NGINX Gzip module for headers compression:
+###### the zlib library – required by NGINX Gzip module for headers compression:
   - Check the latest version at http://www.zlib.net and change below code accordingly
 ```
 cd /tmp/
@@ -43,7 +43,7 @@ make
 sudo make install
 ```
   
-- the OpenSSL library – required by NGINX SSL modules to support the HTTPS protocol:
+###### the OpenSSL library – required by NGINX SSL modules to support the HTTPS protocol:
   - Check the latest version at https://www.openssl.org/source/ and change below code accordingly
 ```
 cd /tmp/
