@@ -6,17 +6,17 @@
 
 ###### Install development tools needed to build NGINX from source
 
-###### redhat base (CentOS):
-###### Before installing the Development tools, run the yum clean all command. This will clear the yum cache and force it to reread any changed configuration files.
+> redhat base (CentOS):
+> Before installing the Development tools, run the yum clean all command. This will clear the yum cache and force it to reread any changed configuration files.
 ```
 yum clean all
 yum groupinstall "Development tools"
 ```
 
-###### Debian base (Ubuntu):
+> Debian base (Ubuntu):
 ```apt-get install build-essential```
 
-###### Change to /tmp directory
+> Change to /tmp directory
 ```cd /tmp/```
 
 ###### the PCRE library – required by NGINX Core and Rewrite modules and provides support for regular expressions:
